@@ -1,0 +1,36 @@
+LEAH D. LONGCANAYA BSIT-3B
+
+midterm-exam
+written-exam
+written-exam.txt
+
+
+
+1. What is the primary operational difference between git fetch and git pull?
+answer: git fetch downloads changes from a remote repository but does not merge them into your current branch, allowing you to review changes before integrating. git pull combines git fetch and git merge by downloading changes and immediately merging them into your current branch.
+
+2. You have uncommitted changes in your working directory and need to temporarily switch to another branch. which workflow prevents Git from blocking the checkpoint due to file overwrites?
+answers: Using git stash
+
+3. When executing a git merge-no-ff command, what specific behavior is enforced by Git?
+answer: The ---no-ff flag forces Git to create a merge commit even if the merge could be done with a fast-forward, preserving the branch history as a separate commit.
+
+4. What happens when you check out a specific commit hash directly (e.g., git checkout a1b2c3d) instead of a branch name?
+answer: Checking Out a specific Commit Hash: Detached HEAD state
+
+5. You need to apply a specific bug-fix commit from a development branch onto a stable release branch without merging the entire branch history. Which command should you use?
+answer: git cherry pick <commit-hash>
+
+6. After performing a destructive git reset--hard operation, you realize you lost recent commits that were not on any branch. Which utility can retrieve these dangling commits?
+answer: git reflog
+
+7. You want to remove untracked files and directories from your working tree, including ignored files listed in.gitignore. Which command flag combination achieves this?
+answer: git clean -fdx
+
+8. answer: git revert <commit-hash>
+
+9. 
+ answer: git bisect
+
+10. What is the function of the--amend flag when used with git commit?
+ answer: git commit --amend    
